@@ -1,6 +1,6 @@
-package com.example.myapplication.repository
+package com.example.myapplication.test1.repository
 
-import com.example.myapplication.bean.ResultBean
+import com.example.myapplication.test1.bean.ResultBean
 import kotlinx.coroutines.Deferred
 import retrofit2.http.GET
 

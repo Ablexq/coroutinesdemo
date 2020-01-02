@@ -1,4 +1,4 @@
-package com.example.myapplication.repository
+package com.example.myapplication.test1.repository
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import okhttp3.OkHttpClient

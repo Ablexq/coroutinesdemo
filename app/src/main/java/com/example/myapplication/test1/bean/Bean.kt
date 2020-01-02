@@ -1,4 +1,4 @@
-package com.example.myapplication.bean
+package com.example.myapplication.test1.bean
 
 data class ResultBean(
     val error: Boolean,

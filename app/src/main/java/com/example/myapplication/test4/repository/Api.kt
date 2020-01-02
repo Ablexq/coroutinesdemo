@@ -1,6 +1,6 @@
-package com.tanzhiqiang.kmvvm.repository
+package com.example.myapplication.test4.repository
 
-import com.tanzhiqiang.kmvvm.mvvm.model.Weather
+import com.example.myapplication.test4.mvvm.model.Weather
 import kotlinx.coroutines.Deferred
 import retrofit2.http.GET
 

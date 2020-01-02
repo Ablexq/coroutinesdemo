@@ -1,10 +1,10 @@
-package com.njp.coroutinesdemo.ui
+package com.example.myapplication.test3.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.njp.coroutinesdemo.bean.LoadState
-import com.njp.coroutinesdemo.launch
-import com.njp.coroutinesdemo.network.NetworkService
+import com.example.myapplication.test3.bean.LoadState
+import com.example.myapplication.test3.launch
+import com.example.myapplication.test3.network.NetworkService
 import kotlinx.coroutines.async
 
 class MainViewModel : ViewModel() {

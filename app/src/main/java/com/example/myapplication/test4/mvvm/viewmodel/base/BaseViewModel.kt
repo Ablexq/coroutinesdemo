@@ -1,4 +1,4 @@
-package com.tanzhiqiang.kmvvm.mvvm.viewmodel.base
+package com.example.myapplication.test4.mvvm.viewmodel.base
 
 import android.util.Log
 import androidx.lifecycle.*

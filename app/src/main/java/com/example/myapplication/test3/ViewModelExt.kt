@@ -1,4 +1,4 @@
-package com.njp.coroutinesdemo
+package com.example.myapplication.test3
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -9,9 +9,9 @@ import kotlinx.android.synthetic.main.activity_test.*
 import kotlinx.coroutines.*
 import kotlin.system.measureTimeMillis
 
-private const val TAG: String = "TestActivity"
+private const val TAG: String = "Test3Activity"
 
-class TestActivity : AppCompatActivity() {
+class Test1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

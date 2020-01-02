@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
 import kotlinx.coroutines.*
 
-private const val TAG: String = "TestActivity"
-class TestActivity : AppCompatActivity() {
+private const val TAG: String = "Test3Activity"
+class Test2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

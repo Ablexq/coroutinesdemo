@@ -1,4 +1,4 @@
-package com.tanzhiqiang.kmvvm.mvvm.model
+package com.example.myapplication.test4.mvvm.model
 
 
 data class Weather(

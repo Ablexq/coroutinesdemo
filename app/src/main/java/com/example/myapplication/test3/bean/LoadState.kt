@@ -1,4 +1,4 @@
-package com.njp.coroutinesdemo.bean
+package com.example.myapplication.test3.bean
 
 sealed class LoadState(val msg: String) {
     class Loading(msg: String = "") : LoadState(msg)

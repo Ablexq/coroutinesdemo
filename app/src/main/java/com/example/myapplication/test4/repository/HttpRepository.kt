@@ -1,7 +1,7 @@
-package com.tanzhiqiang.kmvvm.repository
+package com.example.myapplication.test4.repository
 
 import com.google.gson.GsonBuilder
-import com.tanzhiqiang.kmvvm.ext.CoroutineCallAdapterFactory
+import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

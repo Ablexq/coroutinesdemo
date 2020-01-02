@@ -1,10 +1,12 @@
-package com.tanzhiqiang.kmvvm.mvvm.viewmodel.base
+package com.example.myapplication.test4.mvvm.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.tanzhiqiang.kmvvm.mvvm.model.Weather
-import com.tanzhiqiang.kmvvm.repository.HttpRepository
+import com.example.myapplication.test4.mvvm.model.Weather
+import com.example.myapplication.test4.mvvm.viewmodel.base.BaseViewModel
+import com.example.myapplication.test4.repository.HttpRepository
 import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers.IO
 
 class WeatherViewModel : BaseViewModel() {
 

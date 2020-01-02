@@ -1,10 +1,10 @@
-package com.tanzhiqiang.kmvvm.mvvm.view.base
+package com.example.myapplication.test4.mvvm.view.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.ViewModelProviders
-import com.tanzhiqiang.kmvvm.mvvm.viewmodel.base.BaseViewModel
+import com.example.myapplication.test4.mvvm.viewmodel.base.BaseViewModel
 
 abstract class BaseActivity<VM : BaseViewModel> : AppCompatActivity() {
 

@@ -1,6 +1,6 @@
-package com.njp.coroutinesdemo.network
+package com.example.myapplication.test3.network
 
-import com.njp.coroutinesdemo.bean.ImageDataResponseBody
+import com.example.myapplication.test3.bean.ImageDataResponseBody
 import retrofit2.http.GET
 import retrofit2.http.Query
 

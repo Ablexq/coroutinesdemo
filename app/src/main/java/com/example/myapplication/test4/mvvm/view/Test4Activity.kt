@@ -1,18 +1,21 @@
-package com.tanzhiqiang.kmvvm.mvvm.view
+package com.example.myapplication.test4.mvvm.view
 
 import android.util.Log
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.Observer
-import com.tanzhiqiang.kmvvm.R
-import com.tanzhiqiang.kmvvm.mvvm.view.base.BaseActivity
-import com.tanzhiqiang.kmvvm.mvvm.viewmodel.base.WeatherViewModel
+import com.example.myapplication.R
+import com.example.myapplication.test4.mvvm.view.base.BaseActivity
+import com.example.myapplication.test4.mvvm.viewmodel.WeatherViewModel
+import kotlinx.android.synthetic.main.activity_test4.*
 
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
-class MainActivity : BaseActivity<WeatherViewModel>() {
-    override fun layoutId(): Int = R.layout.activity_main
+/**
+ *
+ */
+class Test4Activity : BaseActivity<WeatherViewModel>() {
+    override fun layoutId(): Int = R.layout.activity_test4
     override fun providerVMClass(): Class<WeatherViewModel> = WeatherViewModel::class.java
 
     override fun providerToolBar(): Toolbar = toolbar
@@ -31,7 +34,7 @@ class MainActivity : BaseActivity<WeatherViewModel>() {
 
     override fun startObserve() {
         mViewModel?.apply {
-            mWeather.observe(this@MainActivity, Observer { it ->
+            mWeather.observe(this@Test4Activity, Observer { it ->
                 tv_hello.text = "${it.data}"
 
             })
@@ -39,7 +42,7 @@ class MainActivity : BaseActivity<WeatherViewModel>() {
     }
 
     override fun onDestroy() {
-        Log.i("tt", "MainActivity onDestory")
+        Log.i("tt", "Test4Activity onDestory")
         super.onDestroy()
     }
 }
